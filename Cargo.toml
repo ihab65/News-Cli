@@ -1,0 +1,11 @@
+[package]
+name = "news_cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colour = "0.7.0"
+news_api = {path = "./news_api"}
+thiserror = "1.0.40"
