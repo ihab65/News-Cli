@@ -5,7 +5,7 @@ use news_api::{Articles, get_article};
 
 fn render_articles(articles: &Articles) {
     for a in &articles.articles {
-        dark_green!("> {}\n", a.title);
+        dark_green!(">> {}\n", a.title);
         yellow!("- {}\n\n", a.url)
     }
 
